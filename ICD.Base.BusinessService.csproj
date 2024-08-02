@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ICD.Framework" Version="6.3.16" />
+		<PackageReference Include="ICD.Framework.Data" Version="6.3.16" />
+		<PackageReference Include="ICD.Infrastructure.BusinessServiceContract" Version="6.2.42" />
+		<PackageReference Include="ICD.Infrastructure.Exception" Version="6.2.42" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+	</ItemGroup>
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\ICD.Base.BusinessServiceContract\ICD.Base.BusinessServiceContract.csproj" />
+		<ProjectReference Include="..\ICD.Base.Domain\ICD.Base.Domain.csproj" />
+		<ProjectReference Include="..\ICD.Base.RepositoryContract\ICD.Base.RepositoryContract.csproj" />
+		<ProjectReference Include="..\ICD.Base\ICD.Base.csproj" />
+	</ItemGroup>
+
+  <PropertyGroup>
+    <Version>6.1.11</Version>
+    <Company>MediTechSys</Company>
+    <Authors>Develop Team</Authors>
+    <Owners>MediTechSys</Owners>
+    <PackageIconUrl>http://172.16.100.52:90/base.png</PackageIconUrl>
+    <PackageProjectUrl>http://172.16.100.52/icd/base.git</PackageProjectUrl>
+  </PropertyGroup>
+</Project>
